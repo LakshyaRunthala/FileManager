@@ -30,6 +30,8 @@ function deleteFile(){
         console.log('File deleted successfully!');
     });
 }
-//createFile("This is a test file!");
-readFile();
+//These functions are called for creating, reading or deleting the file
+//Uncomment the required function 
+createFile("This is a test file!");
+//readFile();
 //deleteFile();
